@@ -109,7 +109,7 @@ station_list.pack()
 
 # Create a frame for the shortest path action
 action_frame = tk.Frame(root)
-action_frame.pack(side=tk.LEFT, padx=10)
+action_frame.pack(side=tk.LEFT, padx=70)
 tk.Label(action_frame, text="Source Station:").pack()
 source_entry = tk.Entry(action_frame)
 source_entry.pack()
@@ -123,7 +123,7 @@ result_label.pack()
 
 # Create a frame for the exit button
 exit_frame = tk.Frame(root)
-exit_frame.pack(pady=20)
+exit_frame.pack(pady=150)
 exit_button = tk.Button(exit_frame, text="Exit", command=root.destroy)
 exit_button.pack()
 
